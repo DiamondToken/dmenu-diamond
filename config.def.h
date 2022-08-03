@@ -5,7 +5,7 @@ static int topbar = 1;                      /* -b  option; if 0, dmenu appears a
 static int fuzzy = 1;                      /* -F  option; if 0, dmenu doesn't use fuzzy matching     */
 /* -fn option overrides fonts[0]; default X11 font or font set */
 static const char *fonts[] = {
-	"Iosevka:size=22"
+	"Iosevka:size=14"
 };
 static const char *prompt =
     NULL; /* -p  option; prompt to the left of input field */
@@ -13,7 +13,7 @@ static const char col_gray1[] = "#002b36";
 static const char col_gray2[] = "#073642";
 static const char col_gray3[] = "#839496";
 static const char col_gray4[] = "#073642";
-static const char col_cyan[] = "#b58900";
+static const char col_cyan[] = "#689d6a";
 
 static const char *colors[SchemeLast][2] = {
 	/*     fg         bg       */
