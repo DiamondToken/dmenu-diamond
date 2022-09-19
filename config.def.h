@@ -9,11 +9,11 @@ static const char *fonts[] = {
 };
 static const char *prompt =
     NULL; /* -p  option; prompt to the left of input field */
-static const char col_gray1[] = "#002b36";
-static const char col_gray2[] = "#073642";
-static const char col_gray3[] = "#839496";
-static const char col_gray4[] = "#073642";
-static const char col_cyan[] = "#689d6a";
+static const char col_gray1[]       = "#1d2021";
+static const char col_gray2[]       = "#32302f";
+static const char col_gray3[]       = "#839496";
+static const char col_gray4[]       = "#d4be98";
+static const char col_cyan[]        = "#45403d";
 
 static const char *colors[SchemeLast][2] = {
 	/*     fg         bg       */
