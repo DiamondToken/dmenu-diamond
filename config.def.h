@@ -5,15 +5,15 @@ static int topbar = 1;                      /* -b  option; if 0, dmenu appears a
 static int fuzzy = 1;                      /* -F  option; if 0, dmenu doesn't use fuzzy matching     */
 /* -fn option overrides fonts[0]; default X11 font or font set */
 static const char *fonts[] = {
-	"TerminessTTF Nerd Font Mono:size=14"
+	"Iosevka Nerd Font:12"
 };
 static const char *prompt =
     NULL; /* -p  option; prompt to the left of input field */
-static const char col_gray1[]       = "#1d2021";
-static const char col_gray2[]       = "#32302f";
-static const char col_gray3[]       = "#839496";
-static const char col_gray4[]       = "#d4be98";
-static const char col_cyan[]        = "#45403d";
+static const char col_gray1[]       = "#282828";
+static const char col_gray2[]       = "#504945";
+static const char col_gray3[]       = "#a89984";
+static const char col_gray4[]       = "#fbf1c7";
+static const char col_cyan[]        = "#689d6a";
 
 static const char *colors[SchemeLast][2] = {
 	/*     fg         bg       */
